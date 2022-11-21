@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo-loja.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <title>10AM Loja</title>
+</head>
+
+<body>
+
+    <header class="topo">
+        <div class="container-topo">
+            <div class="topo-titulo">
+                <a href="index.html">
+                    <img class="topo-logo" src="imagens/logo.png" alt="Logo" title="10AM Logo">
+                </a>
+            </div>
+    
+            <nav class="topo-links">
+                <a href="index.html">Blog</a>
+                <a href="blog.html">Publicações</a>
+                <a href="#contato">Cadastro</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="produtos">
+            <div class="box-produto">
+                <img src="imagens/argola-padrao-dourada.jpeg" alt="imagem argola" title="imagem argola-padrao-dourada">              
+                <div class="produto-descricao">
+                    <p>Nome: Argola padrão dourada<br>Valor: R$2,00</p>
+                </div>
+            </div>
+            <div class="box-produto">
+                <img src="imagens/argola-padrao-prata.jpeg" alt="imagem argola" title="imagem argola-padrao-prata">
+                <div class="produto-descricao">
+                    <p>Nome: Argola padrão prata<br>Valor: R$2,00</p>
+                </div>
+            </div>
+            <div class="box-produto">
+                <img src="imagens/argola-redonda-dourada.jpeg" alt="imagem argola" title="imagem argola-redonda-dourada">
+                <div class="produto-descricao">
+                    <p>Nome: Argola redonda dourada<br>Valor: R$2,50</p>
+                </div>
+            </div>
+            <div class="box-produto">
+                <img src="imagens/argola-redonda-prata.jpeg" alt="imagem argola" title="imagem argola-redonda-prata">
+                <div class="produto-descricao">
+                    <p>Nome: Argola redonda prata<br>Valor: R$2,50</p>
+                </div>
+            </div>
+            <div class="box-produto">
+                <img src="imagens/kit-carteira-xuxinha-chaveiro.jpeg" alt="imagem kit" title="imagem kit-carteira-xuxinha-chaveiro">
+                <div class="produto-descricao">
+                    <p>Nome: Kit de carteira, xuxinha e chaveiro<br>Valor: R$30,00</p>
+                </div>
+            </div>
+            <div class="box-produto">
+                <img src="imagens/chaveiro-metal.jpeg" alt="imagem chaveiro" title="imagem chaveiro-metal">
+                <div class="produto-descricao">
+                    <p>Nome: Chaveiro de metal<br>Valor: R$5,00</p>
+                </div>
+            </div>
+            <div class="box-produto">
+                <img src="imagens/tassels.jpeg" alt="imagem tassel" title="imagem tassel">
+                <div class="produto-descricao">
+                    <p>Nome: Tassel<br>Valor:R$1,75</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="secao-contato container">
+            <div class="container-conteudo">
+                <h3>Cadastro</h3>
+                <p>Preencha seu cadastro e receba notificações de novas postagens e promoções!</p>
+                <form method="post" action="">
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        <div class="grupo-campo">
+                            <label>Nome</label>
+                            <input type="text" name="nome" placeholder="digite seu nome" required>
+                        </div>
+                        <div class="grupo-campo">
+                            <label>Data de Nascimento</label>
+                            <input type="date" name="data_nascimento" required>
+                        </div>
+                        <div class="grupo-campo">
+                            <label>Telefone</label>
+                            <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                        </div>
+                        <div class="grupo-campo">
+                            <label>E-mail</label>
+                            <input type="email" name="e-mail" placeholder="xxxxx@email.com" required>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Desejo:</legend>
+                        <div class="grupo-campo">
+                            <p>Gostaria de receber notificações do nosso blog?</p><br>
+                            <input type="radio" name="resposta" id="postagem-sim" value="sim" required/>
+                            <label for="postagem-sim">Sim</label>
+                            <input type="radio" name="resposta" id="postagem-nao" value="nao"/>
+                            <label for="postagem-nao">Não</label>
+                        </div>
+                        <div class="grupo-campo">
+                            <p>Gostaria de receber notificações da nossa loja?</p><br>
+                            <input type="radio" name="resposta" id="loja-sim" value="sim" required/>
+                            <label for="loja-sim">Sim</label>
+                            <input type="radio" name="resposta" id="loja-nao" value="nao"/>
+                            <label for="loja-nao">Não</label>
+                        </div>
+                    </fieldset>
+                    <button type="submit">Enviar dados</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-footer">
+          <img class="topo-logo" src="imagens/logo.png" alt="Logo" title="10AM Logo">
+    
+          <p>
+            Telefone e WhatsApp: (27) 99999-9999
+          </p>
+          <p>
+            E-mail: ten_am@email.com
+          </p>
+    
+          <p>
+            ©2022 10AM - Todos os direitos reservados
+          </p>
+        </div>
+      </footer>
+
+</body>
+</html>
