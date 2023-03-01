@@ -2,7 +2,7 @@
 Este projeto foi desenvolvido levando em consideração dois projetos do curso DevMedia, unindo seus critérios em um único site.
 .
 .
-Este site foi feito juntando o projeto de responsividade com o de formulário e como eles têm temas diferentes, aventurei-me em um terceiro tema: crochê. Neste projeto pude me desafiar, saindo do conforto de uma atividade com passo a passo, para algo que teria que verdadeiramente entender e fazer do começo. 
+Este site foi feito juntando o projeto de responsividade com o de formulário e como eles têm temas diferentes, aventurei-me em um terceiro tema: crochê. Neste projeto pude me desafiar, unindo diferentes tópicos em um só.
 
 Aproveitei do meu hobby como inspiração e a partir dele estruturei um site que algumas páginas, sendo elas: principal, publicações e loja. Em todas elas existe uma área de cadastro e links para fazer a interrelação delas.
 
